@@ -1,0 +1,272 @@
+.profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.profile-header {
+  margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.profile-header p {
+  color: var(--textSecondary);
+  font-size: 1.1rem;
+}
+
+.profile-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.profile-card,
+.address-card {
+  background: var(--cardBg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Profile Image Section */
+.profile-image-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.image-upload {
+  text-align: center;
+}
+
+.image-preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  border: 4px solid var(--border);
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-preview svg {
+  color: #6366f1;
+}
+
+.upload-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--gradient);
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.upload-label:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+}
+
+/* Profile Form */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.message.success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.message.error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.form-group label svg {
+  color: #6366f1;
+}
+
+.form-group input {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 1rem;
+  background: var(--surface);
+  color: var(--text);
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.save-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.25rem;
+  background: var(--gradient);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.save-btn:hover:not(:disabled) {
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+}
+
+.save-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Address Card */
+.address-header {
+  margin-bottom: 1.5rem;
+}
+
+.address-header h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+}
+
+.address-header svg {
+  color: #6366f1;
+}
+
+.address-details {
+  padding: 1.5rem;
+  background: var(--surface);
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.address-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+}
+
+.address-text {
+  font-size: 1rem;
+  color: var(--textSecondary);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.address-contact {
+  font-size: 0.95rem;
+  color: var(--textSecondary);
+  margin: 0;
+}
+
+.no-address {
+  padding: 2rem;
+  text-align: center;
+  color: var(--textSecondary);
+  background: var(--surface);
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.address-btn {
+  width: 100%;
+  padding: 1.25rem;
+  background: var(--gradient);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.address-btn:hover {
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .profile-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  .profile-header h1 {
+    font-size: 2rem;
+  }
+
+  .profile-card,
+  .address-card {
+    padding: 1.5rem;
+  }
+
+  .image-preview {
+    width: 120px;
+    height: 120px;
+  }
+}
