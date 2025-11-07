@@ -19,26 +19,6 @@ A modern, full-stack e-commerce web application with real-time cart updates, bea
   </div>
 </div>
 
-<style>
-  /* Add smooth hover effects */
-  img[alt] {
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  img[alt]:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
-
 <div
   <p>View more screenshots in the <a href="images/">images directory</a></p>
 </div>
