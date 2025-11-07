@@ -4,6 +4,138 @@
 
 A modern, full-stack e-commerce web application with real-time cart updates, beautiful animations, and multiple theme support. Built with React, Node.js, Express, MongoDB, and Socket.io.
 
+## 📸 Project Showcase
+
+<div align="center">
+  <h3>✨ Key Features & Screenshots</h3>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
+    <!-- Image 1 -->
+    <div align="center">
+      <img src="images/1.png" alt="Dashboard Overview" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Dashboard Overview</strong><br><em>Real-time statistics and quick access to all features</em></p>
+    </div>
+    
+    <!-- Image 2 -->
+    <div align="center">
+      <img src="images/2.png" alt="Product Catalog" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Product Catalog</strong><br><em>Browse products with filters and search functionality</em></p>
+    </div>
+    
+    <!-- Image 3 -->
+    <div align="center">
+      <img src="images/3.png" alt="Product Details" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Product Details</strong><br><em>Detailed view with image gallery and add to cart</em></p>
+    </div>
+    
+    <!-- Image 4 -->
+    <div align="center">
+      <img src="images/4.png" alt="Shopping Cart" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Shopping Cart</strong><br><em>Manage your items before checkout</em></p>
+    </div>
+    
+    <!-- Image 5 -->
+    <div align="center">
+      <img src="images/5.png" alt="Checkout Process" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Secure Checkout</strong><br><em>Multiple payment options available</em></p>
+    </div>
+    
+    <!-- Image 6 -->
+    <div align="center">
+      <img src="images/6.png" alt="Order Confirmation" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Order Confirmation</strong><br><em>Instant order details and tracking</em></p>
+    </div>
+    
+    <!-- Image 7 -->
+    <div align="center">
+      <img src="images/7.png" alt="User Profile" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>User Profile</strong><br><em>Manage your account and preferences</em></p>
+    </div>
+    
+    <!-- Image 8 -->
+    <div align="center">
+      <img src="images/8.png" alt="Order History" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Order History</strong><br><em>Track all your past orders</em></p>
+    </div>
+    
+    <!-- Image 9 -->
+    <div align="center">
+      <img src="images/9.png" alt="Mobile Responsive" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Mobile Responsive</strong><br><em>Fully optimized for all devices</em></p>
+    </div>
+    
+    <!-- Image 10 -->
+    <div align="center">
+      <img src="images/10.png" alt="Admin Dashboard" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <p style="margin-top: 10px;"><strong>Admin Dashboard</strong><br><em>Manage products, orders, and users</em></p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Add smooth hover effects */
+  img[alt] {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  img[alt]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+## 📸 Screenshots
+
+<div align="center">
+  <h3>✨ Key Features Showcase</h3>
+  
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+    <!-- Screenshot 1 -->
+    <div align="center">
+      <img src="images/screenshot1.png" alt="Dashboard View" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p><em>Dashboard with real-time updates</em></p>
+    </div>
+    
+    <!-- Screenshot 2 -->
+    <div align="center">
+      <img src="images/screenshot2.png" alt="Product Catalog" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p><em>Product Catalog with Filters</em></p>
+    </div>
+    
+    <!-- Screenshot 3 -->
+    <div align="center">
+      <img src="images/screenshot3.png" alt="Shopping Cart" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p><em>Shopping Cart with Real-time Updates</em></p>
+    </div>
+    
+    <!-- Add more screenshots following the same pattern -->
+    <div align="center">
+      <img src="images/screenshot4.png" alt="User Profile" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p><em>User Profile Management</em></p>
+    </div>
+    
+    <div align="center">
+      <img src="images/screenshot5.png" alt="Checkout Process" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p><em>Secure Checkout Process</em></p>
+    </div>
+    
+    <div align="center">
+      <img src="images/screenshot6.png" alt="Order History" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+      <p><em>Order History & Tracking</em></p>
+    </div>
+  </div>
+  
+  <p>View more screenshots in the <a href="images/">images directory</a></p>
+</div>
+
 ## ✨ Features
 
 ### 🎨 Frontend Features
