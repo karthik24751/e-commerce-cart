@@ -13,7 +13,6 @@ A modern, full-stack e-commerce web application with real-time cart updates, bea
     <!-- Image 1 -->
     <div align="center">
       <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/1.png" alt="Dashboard Overview" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-      <p style="margin-top: 10px;"><strong>Dashboard Overview</strong><br><em>Real-time statistics and quick access to all features</em></p>
     </div>
     
 
@@ -40,47 +39,7 @@ A modern, full-stack e-commerce web application with real-time cart updates, bea
   }
 </style>
 
-## 📸 Screenshots
-
-<div align="center">
-  <h3>✨ Key Features Showcase</h3>
-  
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
-    <!-- Screenshot 1 -->
-    <div align="center">
-      <img src="images/screenshot1.png" alt="Dashboard View" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p><em>Dashboard with real-time updates</em></p>
-    </div>
-    
-    <!-- Screenshot 2 -->
-    <div align="center">
-      <img src="images/screenshot2.png" alt="Product Catalog" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p><em>Product Catalog with Filters</em></p>
-    </div>
-    
-    <!-- Screenshot 3 -->
-    <div align="center">
-      <img src="images/screenshot3.png" alt="Shopping Cart" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p><em>Shopping Cart with Real-time Updates</em></p>
-    </div>
-    
-    <!-- Add more screenshots following the same pattern -->
-    <div align="center">
-      <img src="images/screenshot4.png" alt="User Profile" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p><em>User Profile Management</em></p>
-    </div>
-    
-    <div align="center">
-      <img src="images/screenshot5.png" alt="Checkout Process" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p><em>Secure Checkout Process</em></p>
-    </div>
-    
-    <div align="center">
-      <img src="images/screenshot6.png" alt="Order History" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-      <p><em>Order History & Tracking</em></p>
-    </div>
-  </div>
-  
+<div
   <p>View more screenshots in the <a href="images/">images directory</a></p>
 </div>
 
@@ -549,30 +508,5 @@ Created with ❤️ by VibeCart Team
 ---
 
 **Note:** This is a demonstration project. For production use, implement additional security measures, error handling, and testing.
-
-## 📸 Screenshots
-
-### Login Page
-Beautiful authentication with animated background blobs and smooth transitions.
-
-### Dashboard
-Statistics cards, recent orders, and personalized product recommendations.
-
-### Products Page
-Grid/list view toggle, search, category filters, and smooth animations.
-
-### Shopping Cart
-Real-time updates, quantity controls, and instant total calculation.
-
-### Checkout
-Order summary, payment details, and success confirmation with receipt.
-
-### Theme Switching
-5 beautiful themes with instant color transitions throughout the app.
-
-### AI Chat Assistant
-Floating chat bot with pre-defined responses for common queries.
-
----
 
 **Happy Shopping! 🛍️**
