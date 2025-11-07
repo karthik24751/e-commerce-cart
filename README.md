@@ -12,61 +12,61 @@ A modern, full-stack e-commerce web application with real-time cart updates, bea
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0;">
     <!-- Image 1 -->
     <div align="center">
-      <img src="images/1.png" alt="Dashboard Overview" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/1.png" alt="Dashboard Overview" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Dashboard Overview</strong><br><em>Real-time statistics and quick access to all features</em></p>
     </div>
     
     <!-- Image 2 -->
     <div align="center">
-      <img src="images/2.png" alt="Product Catalog" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/2.png" alt="Product Catalog" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Product Catalog</strong><br><em>Browse products with filters and search functionality</em></p>
     </div>
     
     <!-- Image 3 -->
     <div align="center">
-      <img src="images/3.png" alt="Product Details" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/3.png" alt="Product Details" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Product Details</strong><br><em>Detailed view with image gallery and add to cart</em></p>
     </div>
     
     <!-- Image 4 -->
     <div align="center">
-      <img src="images/4.png" alt="Shopping Cart" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/4.png" alt="Shopping Cart" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Shopping Cart</strong><br><em>Manage your items before checkout</em></p>
     </div>
     
     <!-- Image 5 -->
     <div align="center">
-      <img src="images/5.png" alt="Checkout Process" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/5.png" alt="Checkout Process" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Secure Checkout</strong><br><em>Multiple payment options available</em></p>
     </div>
     
     <!-- Image 6 -->
     <div align="center">
-      <img src="images/6.png" alt="Order Confirmation" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/6.png" alt="Order Confirmation" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Order Confirmation</strong><br><em>Instant order details and tracking</em></p>
     </div>
     
     <!-- Image 7 -->
     <div align="center">
-      <img src="images/7.png" alt="User Profile" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/7.png" alt="User Profile" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>User Profile</strong><br><em>Manage your account and preferences</em></p>
     </div>
     
     <!-- Image 8 -->
     <div align="center">
-      <img src="images/8.png" alt="Order History" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/8.png" alt="Order History" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Order History</strong><br><em>Track all your past orders</em></p>
     </div>
     
     <!-- Image 9 -->
     <div align="center">
-      <img src="images/9.png" alt="Mobile Responsive" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/9.png" alt="Mobile Responsive" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Mobile Responsive</strong><br><em>Fully optimized for all devices</em></p>
     </div>
     
     <!-- Image 10 -->
     <div align="center">
-      <img src="images/10.png" alt="Admin Dashboard" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+      <img src="https://raw.githubusercontent.com/karthik24751/e-commerce-cart/main/images/10.png" alt="Admin Dashboard" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
       <p style="margin-top: 10px;"><strong>Admin Dashboard</strong><br><em>Manage products, orders, and users</em></p>
     </div>
   </div>
